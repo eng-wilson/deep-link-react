@@ -1,10 +1,14 @@
 import { useEffect } from "react";
 
 function App() {
+  const getQueryVariable = (path) => {
+    const query = path.split("?path=")[1];
+
+    window.location.replace("eurekka://deep.eurekka.me/" + query);
+  };
+
   useEffect(() => {
-    window.location.replace(
-      "eurekka://deep.eurekka.me/" + document.URL.split("/")[1]
-    );
+    getQueryVariable(document.URL);
   }, []);
   return <div></div>;
 }
