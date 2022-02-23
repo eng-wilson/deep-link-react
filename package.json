@@ -1,6 +1,6 @@
 {
   "name": "deep-link-react",
-  "homepage": "https://eng-wilson.github.io/deep-link-react",
+  "homepage": "https://deep-link-react.vercel.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
