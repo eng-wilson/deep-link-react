@@ -6,7 +6,11 @@ function App() {
 
     console.log(query);
 
-    window.location.replace("eurekka://deep.eurekka.me/" + query);
+    if (query) {
+      window.location.replace("eurekka://deep.eurekka.me/" + query);
+    } else {
+      window.location.replace("eurekka://deep.eurekka.me/");
+    }
   };
 
   useEffect(() => {
