@@ -6,8 +6,9 @@
 }
 
 main {
-  width: 100vw;
-  height: 100vh;
+  flex: 1;
+  min-width: 100vw;
+  min-height: 100vh;
 
   background: #ffe13b;
 
@@ -17,7 +18,7 @@ main {
   align-items: center;
   justify-content: center;
 
-  padding: 24px;
+  padding: 1.5rem;
 }
 
 .content {
@@ -33,24 +34,30 @@ main {
 }
 
 img {
-  width: 256px;
-  height: 256px;
+  
+  width: 75%;
+  height: auto;
 }
 
 h1 {
   font-family: montserrat, Sans-serif;
   text-align: center;
+  font-size: 1.25rem;
 }
 
 p {
-  font-family: montserrat, Sans-serif;
+  font-family: Open Sans,sans-serif;
+  font-weight: 500;
   text-align: center;
+  color: #333;
+  font-size: 1rem;
 
-  padding: 16px 0;
+  padding: 1rem 0;
 }
 
 span {
-  font-family: montserrat, Sans-serif;
+  color: #333;
+  font-family: Open Sans,sans-serif;
   text-align: center;
 }
 

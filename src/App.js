@@ -23,11 +23,11 @@ function App() {
     <main>
       <div className="content">
         <img src={logo} alt="Eurekka logo" />
-        <h1>Estamos te redirecionando ao nosso App</h1>
+        <h1>Estamos te redirecionando ao nosso App...</h1>
 
         <p>
           Caso o redirecionamento esteja demorando, você pode clicar no botão
-          abaixo
+          abaixo:
         </p>
 
         <button onClick={() => getQueryVariable(document.URL)}>
@@ -38,11 +38,11 @@ function App() {
       <footer>
         <p>
           Lembre-se de verificar se o nosso aplicativo está instalado nesse
-          dispositivo
+          dispositivo.
         </p>
         <span>
           Em caso de dúvida, entre em contato com nosso suporte{" "}
-          <a href="mailto:contato@eurekka.me">contato@eurekka.me</a>
+          <a href="mailto:contato@eurekka.me">contato@eurekka.me</a>.
         </span>
       </footer>
     </main>
